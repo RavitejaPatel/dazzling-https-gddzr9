@@ -193,7 +193,7 @@ export default function InputAdornments() {
           sx={{ m: 1, width: "25ch" }}
           value={donation}
           onChange={(e) => setDonation(e.target.value)}
-          helperText={Number(donation) > 1000 ? "You're so generous!" : ""}
+          helperText={Number(donation) > 1000 ? "You are so generous!" : ""}
           InputProps={{
             startAdornment: <InputAdornment position="start">$</InputAdornment>,
           }}
